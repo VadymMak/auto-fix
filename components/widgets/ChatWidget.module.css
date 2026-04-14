@@ -6,21 +6,21 @@
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: var(--orange);
-  color: #fff;
-  border: none;
+  background: var(--navy);
+  color: var(--orange);
+  border: 2px solid var(--orange);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 16px rgba(249, 115, 22, 0.35);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
   transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
 }
 
 .fab:hover {
-  background: var(--orange-dark);
+  background: var(--navy-light);
   transform: scale(1.1);
-  box-shadow: 0 6px 24px rgba(249, 115, 22, 0.5);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
 }
 
 .widget {
