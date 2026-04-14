@@ -10,17 +10,17 @@ import type {
   ImageMap,
 } from './types';
 
-export const USE_LOCAL_IMAGES = false;
+export const USE_LOCAL_IMAGES = true;
 
 export const IMAGES: ImageMap = {
-  hero: 'https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=1600&q=80',
-  about: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=800&h=600&fit=crop',
+  hero: '/images/hero.webp',
+  about: '/images/about.webp',
   gallery: [
-    'https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600&h=800&fit=crop',
-    'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=500&h=350&fit=crop',
-    'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=500&h=350&fit=crop',
-    'https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=500&h=350&fit=crop',
-    'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=500&h=350&fit=crop',
+    '/images/gallery/1.webp',
+    '/images/gallery/2.webp',
+    '/images/gallery/3.webp',
+    '/images/gallery/4.webp',
+    '/images/gallery/5.webp',
   ],
 };
 
